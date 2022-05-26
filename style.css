@@ -1,4 +1,4 @@
-body {
+.bg {
     margin: 0;
     position: relative;
     height: 100%;
@@ -6,6 +6,7 @@ body {
     background: url(img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav-superior {
@@ -98,6 +99,31 @@ footer {
     color: white;
 }
 
+
+/* //////////// Tela bem vindo //////////// */
+
+.welcome {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/fundo-welcome.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header-wel {
+    padding-top: 5px;
+    display: flex;
+}
+
+
+/* //////////// Tela bem vindo //////////// */
+
+
+/* /////////// Menu Mobile /////////////// */
+
 @media (max-width: 767px) {
     #menu {
         display: flex;
@@ -105,7 +131,7 @@ footer {
         width: 75%;
         top: 80px;
         right: 12px;
-        background: #133e68;
+        background: #0b253e;
         transition: 0.9s;
         z-index: 1000;
         height: 0px;
@@ -175,3 +201,6 @@ footer {
         top: -7px;
     }
 }
+
+
+/* /////////// Menu Mobile /////////////// */
