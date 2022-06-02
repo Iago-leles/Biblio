@@ -81,15 +81,6 @@ a:hover {
     width: 100%;
 }
 
-footer {
-    color: #c8ff16;
-    background-color: #0d3257;
-    margin-top: 25px;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-}
-
 .user-mobile {
     display: none;
 }
@@ -106,7 +97,7 @@ footer {
     margin: 0;
     height: 100%;
     width: 100%;
-    background-image: url(/img/fundo-welcome.jpg);
+    background-image: url(/img/background-1.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -116,6 +107,73 @@ footer {
 #header-wel {
     padding-top: 5px;
     display: flex;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+.principal {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-img-wel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-entre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title1 {
+    font-size: 55px;
+    color: #ffffff;
+    transform: skew(348deg);
+    text-shadow: #f44926 3px 3px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-left: 53px;
+}
+
+.title2 {
+    font-size: 40px;
+    color: #ffffff;
+    transform: skew(348deg);
+    text-shadow: #f44926 3px 3px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: 2px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    margin-left: 53px;
+}
+
+.btn-2 {
+    background: #f44926;
+    background: #f44926;
+    border-radius: 25px;
+    border-color: white;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-2:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-2:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .5), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -204,3 +262,12 @@ footer {
 
 
 /* /////////// Menu Mobile /////////////// */
+
+footer {
+    color: #c8ff16;
+    background-color: #0d3257;
+    margin-top: 25px;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
