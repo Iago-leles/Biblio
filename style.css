@@ -9,6 +9,10 @@
     background-attachment: fixed;
 }
 
+.carrosel_home{
+    background: url(img/background.png);
+}
+
 .nav-superior {
     justify-content: space-between;
 }
