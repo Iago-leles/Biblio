@@ -1,0 +1,14 @@
+-- Clonar repositório:
+git clone <link do git>
+
+
+-- Atualizar GIT
+git pull origin master 
+
+
+-- Subir informação no git
+
+git add .
+git pull origin master
+git commit -m "Atualização de Diretório Plano de Testes Previne3"
+git push origin master
